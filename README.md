@@ -1,0 +1,5 @@
+## Building Your First Chatbot using ChatGPT with TypeScript in NodeJS
+
+Artificial intelligence (AI) is rapidly becoming one of the most promising technologies, particularly with the introduction of generative AI chatbots. OpenAI launched its first AI chatbot in November 2022 and within a short couple of months, it has become the fastest-growing app in history. Who would have known that one of the most transformative technologies to be introduced in 2022 would be a simple text box to chat with a computer program that can give you an answer to almost any question that you ask it? Many industries have shifted their strategies to incorporate and adopt more AI technologies into their core services and products.
+
+It can be difficult to wrap your head around the rapid developments happening in the AI space, and many questions arise about how to best use AI to improve services. In this blog post, we’ll explore the building blocks of how to build a simple NodeJS application to chat with ChatGPT using TypeScript. This is going to be a command-line interface to interact with the chatbot.
