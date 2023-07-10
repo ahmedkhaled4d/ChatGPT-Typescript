@@ -17,7 +17,7 @@ const userInterface = readline.createInterface({
   output: process.stdout,
 });
 // Set prompt for user
-userInterface.setPrompt(`\\n${chalk.blue("Send a message:")}\\n`);
+userInterface.setPrompt(`\n ${chalk.blue("Type a message:")} \n`);
 userInterface.prompt();
 userInterface.on("line", async (input) => {
   // Create request message and add it to messages array
