@@ -1,5 +1,59 @@
-## Building Your First Chatbot using ChatGPT with TypeScript in NodeJS
+# Express API Starter with Typescript
 
-Artificial intelligence (AI) is rapidly becoming one of the most promising technologies, particularly with the introduction of generative AI chatbots. OpenAI launched its first AI chatbot in November 2022 and within a short couple of months, it has become the fastest-growing app in history. Who would have known that one of the most transformative technologies to be introduced in 2022 would be a simple text box to chat with a computer program that can give you an answer to almost any question that you ask it? Many industries have shifted their strategies to incorporate and adopt more AI technologies into their core services and products.
+How to use this template:
 
-It can be difficult to wrap your head around the rapid developments happening in the AI space, and many questions arise about how to best use AI to improve services. In this blog post, we’ll explore the building blocks of how to build a simple NodeJS application to chat with ChatGPT using TypeScript. This is going to be a command-line interface to interact with the chatbot.
+```sh
+npx create-express-api --typescript --directory my-api-name
+```
+
+Includes API Server utilities:
+
+* [morgan](https://www.npmjs.com/package/morgan)
+  * HTTP request logger middleware for node.js
+* [helmet](https://www.npmjs.com/package/helmet)
+  * Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
+* [dotenv](https://www.npmjs.com/package/dotenv)
+  * Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
+* [cors](https://www.npmjs.com/package/cors)
+  * CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+
+Development utilities:
+
+* [typescript](https://www.npmjs.com/package/typescript)
+  * TypeScript is a language for application-scale JavaScript.
+* [ts-node](https://www.npmjs.com/package/ts-node)
+  * TypeScript execution and REPL for node.js, with source map and native ESM support.
+* [nodemon](https://www.npmjs.com/package/nodemon)
+  * nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+* [eslint](https://www.npmjs.com/package/eslint)
+  * ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+* [typescript-eslint](https://typescript-eslint.io/)
+  * Tooling which enables ESLint to support TypeScript.
+* [jest](https://www.npmjs.com/package/jest)
+  * Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+* [supertest](https://www.npmjs.com/package/supertest)
+  * HTTP assertions made easy via superagent.
+
+## Setup
+
+```
+npm install
+```
+
+## Lint
+
+```
+npm run lint
+```
+
+## Test
+
+```
+npm run test
+```
+
+## Development
+
+```
+npm run dev
+```
